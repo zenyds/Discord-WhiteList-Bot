@@ -21,7 +21,7 @@ async def on_ready():
     print('----------')
 
 
-@bot.command()                 wl info command do this in a wil info channel once then disable the command if you want to
+@bot.command()                # wl info command do this in a wil info channel once then disable the command if you want to
 async def wlinfo(ctx):
     emb=discord.Embed(title='Wl info',description='You can make a whitelist application using !wl in any channel.')
     await ctx.channel.send(embed=emb)
